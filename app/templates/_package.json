@@ -1,0 +1,39 @@
+{
+  "name": "<%= slugname %>",
+  "version": "0.0.0",
+  "main": "lib/<%= slugname %>.js",
+  "description": "<%= props.description %>",<% if (props.homepage) { %>
+  "homepage": "<%= props.homepage %>",<%}%>
+  "bugs": "<%= repoUrl %>/issues",
+  "author": {
+    "name": "<%= props.authorName %>",
+    "email": "<%= props.authorEmail %>"<% if (props.authorUrl) { %>,
+    "url": "<%= props.authorUrl %>"<% } %>
+  },
+  "repository": {
+    "type": "git",
+    "url": "<%= repoUrl %>"
+  },
+  "licenses": [
+    {
+      "type": "<%= props.license %>"
+    }
+  ],
+  "files": [
+    ""
+  ],
+  "keywords":[
+  ],
+  "devDependencies": {
+    "coffee-script": "^1.7.1",
+    "coffee-gulp": "^0.0.1",
+    "gulp": "^3.5.2",
+    "gulp-coffee": "^1.4.1",
+    "gulp-util": "^2.2.14",
+    "gulp-clean": "^0.2.4",
+    "gulp-coffeelint": "^0.2.2"
+  },
+  "scripts": {
+     "test": "coffee-gulp"
+  }
+}

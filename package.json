@@ -1,0 +1,41 @@
+{
+  "name": "generator-npm",
+  "version": "0.0.1",
+  "description": "NPM Generator is a Yeoman Generator which creates the boilerplate code for a new npm package with [coffeescript](http://coffeescript.org/) support.",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/F1ow/generator-npm.git"
+  },
+  "homepage": "https://github.com/F1ow/generator-npm",
+  "bugs": "https://github.com/F1ow/generator-npm/issues",
+  "author": {
+    "name": "Florian Nebenfuehr",
+    "email": "",
+    "url": "https://github.com/F1ow"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">=1.2.10"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "~0.16.0",
+    "chalk": "~0.4.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  }
+}
