@@ -38,7 +38,7 @@ Finally, initiate the generator:
 $ yo npm
 ```
 
-### Compile with Gulp
+#### Compile with Gulp
 
 The streaming build system [Gulp](http://gulpjs.com)
 
